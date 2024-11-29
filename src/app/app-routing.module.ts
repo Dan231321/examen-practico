@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'calcular-area',
+    loadChildren: () => import('./calcular-area/calcular-area.module').then( m => m.CalcularAreaPageModule)
+  },
 ];
 
 @NgModule({
