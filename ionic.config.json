@@ -1,0 +1,7 @@
+{
+  "name": "calcular-area",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
